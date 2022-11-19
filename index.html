@@ -10,7 +10,7 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="header__logo header__logo_place_header">
+      <div class="logo header__logo_place_header">
         <img src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум">
       </div>
       <h1 class="header__title">Научиться учиться</h1>
@@ -23,7 +23,7 @@
         alt="Изображение мальчика из картины Опять двойка">
       <div class="header__square-pic"></div>
     </header>
-    <div class="content">
+    <main class="content">
       <section class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -39,8 +39,8 @@
         </div>
       </section>
       <section class="digits">
-        <h2 class="digits__section-title">Цифры и факты</h2>
-        <h3 class="digits__section-subtitle">Про учебу и мозг</h3>
+        <h2 class="section-title">Цифры и факты</h2>
+        <h3 class="section-subtitle">Про учебу и мозг</h3>
         <ul class="table table_theme_light">
           <li class="table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
@@ -80,9 +80,84 @@
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle">Выучить и  не забыть.</h3>
         <a href="#" class="feynman__link">Подробнее →</a>
-        <!--- <img class="feynman__image" src="./images/feynman.png" alt="Портрет Фейнмана"> -->
       </section>
-    </div>
+      <section class="kaufman kaufman_images">
+        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
+        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+        <ul class="table table_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">1</h3>
+            <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">2</h3>
+            <p class="table__text table__text_theme_dark">Сосредоточтесь на каком-то одном навыке.</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">3</h3>
+            <p class="table__text table__text_theme_dark">Определите целевой уровень мастерства.</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">4</h3>
+            <p class="table__text table__text_theme_dark">Разбейте навык на элементы.</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">5</h3>
+            <p class="table__text table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">6</h3>
+            <p class="table__text table__text_theme_dark">Устраните препятствия для занятий.</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">7</h3>
+            <p class="table__text table__text_theme_dark">Выделите специальное время для занятий.</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">8</h3>
+            <p class="table__text table__text_theme_dark">Создайте быстрые петли обратной связи.</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">9</h3>
+            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+          </li>
+          <li class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">10</h3>
+            <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
+          </li>
+        </ul>
+        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="">
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
+          <div class="logo logo_place_footer">
+            <img src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
+          </div>
+          <p class="footer__author">© Ринат Мужауров</p>
+        </div>
+          <div class="footer__column footer__column_content_info">
+            <h2 class="footer__column-heading">О Практикуме</h2>
+          <nav class="footer__column-links">
+            <a class="footer__column-link" href="#">Главная</a>
+            <a class="footer__column-link" href="#">Концепция</a>
+            <a class="footer__column-link" href="#">Наставники</a>
+          </nav>
+        </div>
+        <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Соцсети</h2>
+          <nav class="footer__column-links">
+            <a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="./images/youtube-icon.svg" alt="">YouTube</a>
+            <a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="">ВКонтакте</a>
+            <a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="">TikTok</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>

@@ -29,7 +29,7 @@
   height: 32px;
 }
 
-.header__logo_place_header {
+.logo_place_header {
   position: absolute;
   left: 64px;
   top: 30px;
@@ -193,9 +193,6 @@
   background-color: #f2f2f2;
   height: 890px;
   position: relative;
-}
-
-.feynman_image {
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: 0% 100%;

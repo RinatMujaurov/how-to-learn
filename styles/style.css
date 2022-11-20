@@ -175,11 +175,11 @@
   line-height: 1,15;
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 20px;
 }
 
 .table__text {
   margin: 0;
+  margin-top: 20px;
   padding: 0;
   display: flex;
   line-height: 1,2;

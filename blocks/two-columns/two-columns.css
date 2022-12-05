@@ -1,0 +1,11 @@
+
+.two-columns {
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 80%;
+  min-width: 784px;
+  position: relative;
+}

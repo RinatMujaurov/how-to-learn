@@ -4,5 +4,5 @@
   font-weight: normal;
   margin: 18px 0 18px 0;
   display: flex;
-  justify-content: start-end;
+  justify-content: flex-start;
 }

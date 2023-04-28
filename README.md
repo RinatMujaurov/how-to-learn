@@ -1,21 +1,21 @@
-#  Научиться учиться
-Проектная работа Яндекс.Практикум
+#  Learn to learn
+Project work Yandex.Practicum
 
 
-## Технологии использованые при разработке проекта
+## Technologies used in the development of the project
 - HTML
 - CSS
 - Git
-- Файловая структура БЭМ Nested
-- Использована методология БЭМ
-- Анимации для изображений
-- iframes видео из YouTube
+- BEM Nested file structure
+- Used BEM methodology
+- Animations for images
+- iframes video from youtube
 
-##  Планируется доработать
-- Подключить новые шрифты
-- Проверить сайт на кроссбраузерность
-- Дописать все вендорные префиксы
-- Создать форму обратной связи с пользователями
+## Planned to be finalized
+- Connect new fonts
+- Check the site for cross-browser compatibility
+- Add all vendor prefixes
+- Create a user feedback form
 
 https://howtolearn.surge.sh/
 
